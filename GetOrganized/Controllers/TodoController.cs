@@ -26,6 +26,7 @@ namespace GetOrganized.Controllers
 
 		//
 		// GET: /Todo/Create
+		[Authorize]
 
 		public ActionResult Create()
 		{
@@ -34,7 +35,7 @@ namespace GetOrganized.Controllers
 
 		//
 		// POST: /Todo/Create
-
+		[Authorize]
 		[HttpPost]
 		public ActionResult Create(Todo todo)
 		{

@@ -1,5 +1,5 @@
-2012/07/29-23:13:27.723 139c Recovering log #32
-2012/07/29-23:13:27.723 139c Level-0 table #34: started
-2012/07/29-23:13:27.763 139c Level-0 table #34: 2343 bytes OK
-2012/07/29-23:13:27.826 139c Delete type=0 #32
-2012/07/29-23:13:27.826 139c Delete type=3 #30
+2012/07/31-22:59:56.766 1ff0 Recovering log #35
+2012/07/31-22:59:56.766 1ff0 Level-0 table #37: started
+2012/07/31-22:59:57.053 1ff0 Level-0 table #37: 14034 bytes OK
+2012/07/31-23:00:05.430 1ff0 Delete type=0 #35
+2012/07/31-23:00:05.486 1ff0 Delete type=3 #33

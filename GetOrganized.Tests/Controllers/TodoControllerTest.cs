@@ -91,5 +91,11 @@ namespace GetOrganized.Tests.Controllers
 			var viewResult = (ViewResult) new TodoController().Create();
 			Assert.AreEqual(string.Empty, viewResult.ViewName);
 		}
+		[Test]
+		public void Should_Be_Login_To_Create()
+		{
+			TestHelper.AssertIsAouthorized(typeof(TodoController), "Create");
+			TestHelper.AssertIsAouthorized(typeof(TodoController), "Create",typeof(Todo));
+		}
 	}
 }
